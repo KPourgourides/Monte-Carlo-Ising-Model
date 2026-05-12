@@ -11,7 +11,7 @@ Welcome to our Monte Carlo simulation of the 2D Ising Model! Our project simulat
 
 Run this cell to load the necessary modules
 
-```
+```Python
 import ising_model as ismo
 import observables as obs
 from IPython.display import display, Math
@@ -23,7 +23,7 @@ from IPython.display import display, Math
 
 You can visualize physical observables vs temperature - namely, magnetization, energy, susceptibility per spin and specific heat per spin. To do so, run the following cell!
 
-```
+```Python
 temperature_grid, magnetization, susceptibility, specific_heat, energy = obs.get_obs_vs_temperature(
     cycles = 17000, 
     L = 32, 
@@ -49,7 +49,7 @@ The arguments correspond to:
 
 You can visualize the proper and absolute magnetization vs magnetic field. To do so, run the following cell!
 
-```
+```Python
 field_grid, absmag, absmag_err, mag, mag_err = obs.get_magnetization_vs_field(
     cycles = 17000, 
     L = 32, 
