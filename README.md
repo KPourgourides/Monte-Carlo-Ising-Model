@@ -1,7 +1,7 @@
 # TU Delft Computational Physics Project 2: Monte Carlo simulation of the 2D Ising Model
 ## Authors: Kyproula Mitsidi, Konstantinos Pourgourides
 
-Welcome to our Monte Carlo simulation of the 2D Ising Model! Our project simulates the evolution of a square spin lattice, shaped iteratively through spin interactions, thermal fluctuations and the infuence of an external magnetic - leading to interesting physics such as critical fluctuations and a second order phase transition! Here, you can learn how to run the simulation yourself using the file `ising_model_testing.ipynb`. All the in-depth details about the structure of the simulation and some cool numerical results can be found in our [report](https://gitlab.kwant-project.org/computational_physics/projects/Project2-Ising_kmitsidi_kpourgourides/-/blob/fee5ee66a36eff3a75f4d304a977819b51e5effb/report/report.pdf).
+Welcome to our Monte Carlo simulation of the 2D Ising Model! Our project simulates the evolution of a square spin lattice, shaped iteratively through spin interactions, thermal fluctuations and the infuence of an external magnetic field - leading to interesting physics such as critical fluctuations and a second order phase transition. Here, you can learn how to run the simulation yourself using the file `ising_model_testing.ipynb`. All the in-depth details about the structure of the simulation and some cool numerical results can be found in our [report](https://github.com/KPourgourides/Monte-Carlo-Ising-Model/blob/main/report/report.pdf).
 
 <p align="center">
   <img src="journal_plots/ising.gif" width="100%">
